@@ -1,0 +1,80 @@
+{
+  "contacts": [
+    {
+      "id": "ed10",
+      "name": "Rohan Verma",
+      "photo": "https://img.freepik.com/free-photo/cheerful-indian-businessman-smiling-closeup-portrait-jobs-career-campaign_53876-129417.jpg",
+      "mobile": "9876543210",
+      "email": "rohan.verma@example.com",
+      "title": "Infosys",
+      "company": "Software Engineer",
+      "groupId": "Group E"
+    },
+    {
+      "id": "5374",
+      "name": "Ashish Patil",
+      "photo": "https://st.depositphotos.com/1011643/4430/i/450/depositphotos_44309759-stock-photo-young-indian-man-outdoors.jpg",
+      "mobile": "7777755555",
+      "email": "ashish@gmail.com",
+      "title": "Google",
+      "company": "Cloud Developer",
+      "groupId": "Group F"
+    },
+    {
+      "id": "bc2c",
+      "name": "Shashank Qspider",
+      "photo": "",
+      "mobile": "1231231230",
+      "email": "shashank@gmail.com",
+      "title": "Fresher",
+      "company": "Fresher",
+      "groupId": "Group B"
+    },
+    {
+      "id": "7351",
+      "name": "Soham Sanap",
+      "photo": "https://img.freepik.com/free-photo/indian-man-student-shirt-posed-outdoor_627829-2276.jpg",
+      "mobile": "7895612785",
+      "email": "soham@gmail.com",
+      "title": "Fresher",
+      "company": "Fresher",
+      "groupId": "Group E"
+    },
+    {
+      "id": "d3f2",
+      "name": "Nitin Ghule",
+      "photo": "",
+      "mobile": "8888855555",
+      "email": "nitinghule@gmail.com",
+      "title": "Google",
+      "company": "Backend Developer",
+      "groupId": "Group F"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "Family"
+    },
+    {
+      "id": "3",
+      "name": "Social"
+    },
+    {
+      "id": "4",
+      "name": "College"
+    },
+    {
+      "id": "5",
+      "name": "Friends"
+    },
+    {
+      "id": "6",
+      "name": "Community"
+    }
+  ]
+}
