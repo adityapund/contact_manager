@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export class ContactServices{
-    static serverURL = 'https://contacts-tau-seven.vercel.app/';
+    static serverURL = 'http://localhost:8000/';
     static getAllContacts(){
         let dataURL = `${this.serverURL}/contacts`;
         return axios.get(dataURL)
