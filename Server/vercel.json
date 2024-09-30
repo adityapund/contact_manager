@@ -1,16 +1,15 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "index.js",
-      "use": "@vercel/static-build",
-      "config": {}
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/*",
-      "dest": "index.js"
-    }
-  ]
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.2"
+  }
 }
