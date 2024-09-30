@@ -12,5 +12,6 @@
       "src": "/api/*",
       "dest": "index.js"
     }
-  ]
+  ],
+  "installCommand": "npm install json-server"
 }
