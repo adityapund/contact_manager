@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: backend
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    port: 8000
+    healthCheck:
+      url: /
+      interval: 10s
+      timeout: 5s
+      retries: 5

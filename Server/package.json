@@ -1,15 +1,18 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "json-server --watch db.json -p 8000"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "json-server": "^1.0.0-beta.2"
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "json-server --watch db.json -p 8000"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "json-server": "^1.0.0-beta.2"
+    }
   }
-}
+  
+  
+  

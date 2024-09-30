@@ -82,7 +82,7 @@ export const EditContact = () => {
                               <input type='text' name='name' required={true} value={contact.name} onChange={updateHandle} placeholder='Name' className='form-control' />
                           </div>
                           <div className='mb-2'>
-                              <input type='text' name='photo' required={true} value={contact.photo} onChange={updateHandle} placeholder='Photo url' className='form-control' />
+                              <input type='text' name='photo'  value={contact.photo} onChange={updateHandle} placeholder='Photo url' className='form-control' />
                           </div>
                           <div className='mb-2'>
                               <input type='number'name='mobile' required={true} value={contact.mobile} onChange={updateHandle} placeholder='Mobile' className='form-control' />
